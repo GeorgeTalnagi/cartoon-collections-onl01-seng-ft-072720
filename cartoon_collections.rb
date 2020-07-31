@@ -10,9 +10,11 @@ end
 #result should be ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 
 def summon_captain_planet(planeteer_calls)
+  planeteer_calls = planeteer_calls.split
   planeteer_calls.collect do |elements|
-  planeteer_calls << "#{elements}"
+  planeteer_calls << "#{!}"
   end
+  planeteer_calls.join(" ")
 end
 
 
