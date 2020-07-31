@@ -6,11 +6,23 @@ def roll_call_dwarves(array)
   puts new_array
 end
 
-#string currently 
+#string currently ["earth", "wind", "fire", "water", "heart"]
 #result should be ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 def summon_captain_planet(planeteer_calls)
-  
+  new_array = []
+  array.each do |elements|
+  new_array << ""
+  end
+  puts new_array
 end
+
+
+
+
+
+
+
+
 
 def long_planeteer_calls# code an argument here
   # Your code here
