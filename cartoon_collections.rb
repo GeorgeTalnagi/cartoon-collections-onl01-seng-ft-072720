@@ -12,7 +12,7 @@ end
 def summon_captain_planet(planeteer_calls)
   new_array = []
   planeteer_calls.each do |elements|
-  new_array << "#{elements.}"
+  new_array << "#{elements(!}"
   end
   puts new_array
 end
