@@ -11,7 +11,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |elements|
-  planeteer_calls << "#{elements}"
+  planeteer_calls << "#{elements} !"
   end
 end
 
