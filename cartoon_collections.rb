@@ -21,10 +21,6 @@ end
 
 
 
-
-
-
-
 def long_planeteer_calls(short_words)
   short_words.any?{|i| i.length > 4}
 end
