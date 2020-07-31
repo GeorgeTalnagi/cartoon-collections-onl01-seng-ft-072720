@@ -10,11 +10,9 @@ end
 #result should be ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 
 def summon_captain_planet(planeteer_calls)
-  new_array = []
-  planeteer_calls.each do |elements|
-  new_array << "#{elements}"
+  planeteer_calls.collect do |elements|
+  planeteer_calls << "#{elements}"
   end
-  puts new_array
 end
 
 
