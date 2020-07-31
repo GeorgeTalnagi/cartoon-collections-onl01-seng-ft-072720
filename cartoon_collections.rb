@@ -6,6 +6,8 @@ def roll_call_dwarves(array)
   puts new_array
 end
 
+#string currently 
+#result should be ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 def summon_captain_planet(planeteer_calls)
   
 end
