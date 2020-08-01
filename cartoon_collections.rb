@@ -6,7 +6,7 @@ def roll_call_dwarves(array)
   puts new_array
 end
 
-#string currently ["earth", "wind", "fire", "water", "heart"]
+#string currently ["earth!", "wind!", "fire!", "water!", "heart!"]
 #result should be ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 
 def summon_captain_planet(planeteer_calls)
