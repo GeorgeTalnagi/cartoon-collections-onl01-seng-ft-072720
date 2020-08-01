@@ -12,7 +12,7 @@ end
 def summon_captain_planet(planeteer_calls)
   new_calls = []
   planeteer_calls.collect do |elements|
-  new_calls << "word"
+  new_calls << "elements"
   end
   new_calls.split("!")
 end
