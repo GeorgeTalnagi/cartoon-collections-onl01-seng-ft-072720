@@ -13,10 +13,6 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect {|i| i + "!"}
 end
 
-
-
-
-
 def long_planeteer_calls(short_words)
   short_words.any?{|i| i.length > 4}
 end
