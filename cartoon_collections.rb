@@ -10,7 +10,7 @@ end
 #result should be ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.collect {|i| i + "!"}
+  planeteer_calls.collect(&:capitalize) {|i| i + "!"}
 end
 
 def long_planeteer_calls(short_words)
