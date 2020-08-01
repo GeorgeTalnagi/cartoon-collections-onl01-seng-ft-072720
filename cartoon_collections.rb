@@ -11,7 +11,6 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect {|i| i + "!"}
-  planeteer_calls.upcase[0]
 end
 
 def long_planeteer_calls(short_words)
